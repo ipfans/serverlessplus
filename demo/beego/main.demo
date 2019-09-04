@@ -1,0 +1,15 @@
+package main
+
+import (
+	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/context"
+	"github.com/ipfans/serverlessplus"
+)
+
+func main() {
+	b := beego.NewControllerRegister()
+	b.Get("/", func(ctx *context.Context) {
+		ctx.Output.Body([]byte("hello world"))
+	})
+	serverlessplus.Start(b)
+}
