@@ -4,14 +4,14 @@ ServerlessPlus 提供了针对目前开放云 serverless 平台的包装，让�
 
 ## Status
 
-目前项目可以认为是`pre-alpha`阶段，目前程序不建议在正式业务中使用。目前本框架主要是用于演示思路和整理相关功能列表，如果你有任何想法或建议，可以在 `https://github.com/ipfans/serverlessplus/issues` 中提出。
+目前项目可以认为是`pre-alpha`阶段，目前程序不建议在正式业务中使用。目前本框架主要是用于演示思路和整理相关功能列表，如果你有任何想法或建议，可以在 [issues](https://github.com/ipfans/serverlessplus/issues) 中提出。
 
 任何现有 API 均可能在后续版本中进行调整。
 
 ### 支持平台产品
 
-- [*] 阿里云函数计算
-- [*] 腾讯云无服务器函数
+- [x] 阿里云函数计算
+- [x] 腾讯云无服务器函数
 - [ ] Amazon Lambda
 - [ ] GCP Cloud Functions
 
